@@ -14,8 +14,9 @@ export const options: NextAuthOptions = {
         username: {
           label: "Username:",
           type: "text",
-          placeholder: "your-username",
+          placeholder: "Enter your username",
         },
+        password: { label: "Password", type: "Enter your password" },
       },
       async authorize(credentials) {
         console.log(credentials);
